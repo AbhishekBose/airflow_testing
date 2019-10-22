@@ -1,0 +1,539 @@
+[2019-10-22 11:16:13,374] {dag_processing.py:806} INFO - Processing files using up to 1 processes at a time 
+[2019-10-22 11:16:13,375] {dag_processing.py:807} INFO - Process each file at most once every 0 seconds
+[2019-10-22 11:16:13,375] {dag_processing.py:809} INFO - Checking for new files in /home/abhishek/airflow/dags every 300 seconds
+[2019-10-22 11:16:13,590] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                       PID    Runtime    Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.20s           2019-10-22T05:46:13
+================================================================================
+[2019-10-22 11:16:43,603] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                       PID    Runtime    Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-10-22T05:46:21
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.10s           2019-10-22T05:46:41
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.11s           2019-10-22T05:46:29
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.11s           2019-10-22T05:46:23
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.11s           2019-10-22T05:46:17
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.20s           2019-10-22T05:46:35
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.20s           2019-10-22T05:46:39
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.20s           2019-10-22T05:46:13
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.20s           2019-10-22T05:46:27
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.20s           2019-10-22T05:46:37
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.21s           2019-10-22T05:46:15
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.21s           2019-10-22T05:46:31
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.21s           2019-10-22T05:46:43
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.31s           2019-10-22T05:46:19
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.31s           2019-10-22T05:46:25
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.41s           2019-10-22T05:46:33
+================================================================================
+[2019-10-22 11:17:14,040] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                       PID    Runtime    Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.10s           2019-10-22T05:46:47
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.10s           2019-10-22T05:46:41
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.11s           2019-10-22T05:47:11
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.11s           2019-10-22T05:47:09
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.11s           2019-10-22T05:47:03
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.20s           2019-10-22T05:46:35
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.20s           2019-10-22T05:46:39
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.20s           2019-10-22T05:46:37
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.21s           2019-10-22T05:46:55
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.21s           2019-10-22T05:46:51
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.21s           2019-10-22T05:47:05
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.21s           2019-10-22T05:46:53
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.21s           2019-10-22T05:46:59
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.21s           2019-10-22T05:46:45
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.21s           2019-10-22T05:46:43
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.31s           2019-10-22T05:47:07
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.31s           2019-10-22T05:47:01
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.31s           2019-10-22T05:46:49
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.50s           2019-10-22T05:46:57
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.61s           2019-10-22T05:47:14
+================================================================================
+[2019-10-22 11:17:45,578] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                       PID    Runtime    Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.11s           2019-10-22T05:47:11
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.11s           2019-10-22T05:47:09
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.11s           2019-10-22T05:47:43
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.11s           2019-10-22T05:47:23
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.11s           2019-10-22T05:47:41
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.11s           2019-10-22T05:47:45
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.20s           2019-10-22T05:47:21
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.20s           2019-10-22T05:47:25
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.20s           2019-10-22T05:47:31
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.21s           2019-10-22T05:47:35
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.21s           2019-10-22T05:47:15
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.21s           2019-10-22T05:47:27
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.21s           2019-10-22T05:47:17
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.21s           2019-10-22T05:47:19
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.21s           2019-10-22T05:47:29
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.21s           2019-10-22T05:47:39
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.21s           2019-10-22T05:47:33
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.31s           2019-10-22T05:47:07
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.31s           2019-10-22T05:47:37
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.61s           2019-10-22T05:47:14
+================================================================================
+[2019-10-22 11:18:15,599] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                       PID    Runtime    Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.10s           2019-10-22T05:48:15
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.10s           2019-10-22T05:47:57
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.11s           2019-10-22T05:47:51
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.11s           2019-10-22T05:47:43
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.11s           2019-10-22T05:47:41
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.11s           2019-10-22T05:47:45
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.20s           2019-10-22T05:47:47
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.21s           2019-10-22T05:48:11
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.21s           2019-10-22T05:48:03
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.21s           2019-10-22T05:47:39
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.21s           2019-10-22T05:48:09
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.21s           2019-10-22T05:47:59
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.21s           2019-10-22T05:48:05
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.31s           2019-10-22T05:48:13
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.31s           2019-10-22T05:48:07
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.31s           2019-10-22T05:48:01
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.31s           2019-10-22T05:47:55
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.31s           2019-10-22T05:47:49
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.31s           2019-10-22T05:47:37
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.51s           2019-10-22T05:47:53
+================================================================================
+[2019-10-22 11:18:45,742] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                       PID    Runtime    Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.10s           2019-10-22T05:48:15
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-10-22T05:48:29
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.11s           2019-10-22T05:48:23
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.20s           2019-10-22T05:48:21
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.21s           2019-10-22T05:48:27
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.21s           2019-10-22T05:48:41
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.21s           2019-10-22T05:48:39
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.21s           2019-10-22T05:48:45
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.21s           2019-10-22T05:48:11
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.21s           2019-10-22T05:48:09
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.21s           2019-10-22T05:48:35
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.21s           2019-10-22T05:48:17
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.21s           2019-10-22T05:48:31
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.21s           2019-10-22T05:48:37
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.31s           2019-10-22T05:48:13
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.31s           2019-10-22T05:48:43
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.31s           2019-10-22T05:48:19
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.31s           2019-10-22T05:48:25
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.31s           2019-10-22T05:48:07
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.51s           2019-10-22T05:48:34
+================================================================================
+[2019-10-22 11:19:15,772] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                       PID    Runtime    Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-10-22T05:49:09
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.11s           2019-10-22T05:49:03
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.11s           2019-10-22T05:49:11
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.20s           2019-10-22T05:48:53
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.21s           2019-10-22T05:49:05
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.21s           2019-10-22T05:48:51
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.21s           2019-10-22T05:48:57
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.21s           2019-10-22T05:48:59
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.21s           2019-10-22T05:49:15
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.21s           2019-10-22T05:48:41
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.21s           2019-10-22T05:48:39
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.21s           2019-10-22T05:48:45
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.21s           2019-10-22T05:48:47
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.21s           2019-10-22T05:49:07
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.21s           2019-10-22T05:48:37
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.21s           2019-10-22T05:48:55
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.30s           2019-10-22T05:49:01
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.31s           2019-10-22T05:48:43
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.40s           2019-10-22T05:48:49
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.51s           2019-10-22T05:49:14
+================================================================================
+[2019-10-22 11:19:45,803] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                       PID    Runtime    Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-10-22T05:49:09
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-10-22T05:49:41
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.11s           2019-10-22T05:49:11
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.11s           2019-10-22T05:49:39
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.20s           2019-10-22T05:49:27
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.21s           2019-10-22T05:49:21
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.21s           2019-10-22T05:49:15
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.21s           2019-10-22T05:49:45
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.21s           2019-10-22T05:49:17
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.21s           2019-10-22T05:49:23
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.21s           2019-10-22T05:49:29
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.21s           2019-10-22T05:49:33
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.21s           2019-10-22T05:49:35
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.21s           2019-10-22T05:49:43
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.21s           2019-10-22T05:49:07
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.30s           2019-10-22T05:49:19
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.30s           2019-10-22T05:49:31
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.31s           2019-10-22T05:49:25
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.40s           2019-10-22T05:49:37
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.51s           2019-10-22T05:49:14
+================================================================================
+[2019-10-22 11:20:15,834] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                       PID    Runtime    Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.10s           2019-10-22T05:50:09
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-10-22T05:49:41
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.11s           2019-10-22T05:49:51
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.11s           2019-10-22T05:49:39
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.11s           2019-10-22T05:49:47
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.20s           2019-10-22T05:50:03
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.21s           2019-10-22T05:49:49
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.21s           2019-10-22T05:49:45
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.21s           2019-10-22T05:49:57
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.21s           2019-10-22T05:50:15
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.21s           2019-10-22T05:50:11
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.21s           2019-10-22T05:49:59
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.21s           2019-10-22T05:49:43
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.21s           2019-10-22T05:50:05
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.31s           2019-10-22T05:50:13
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.31s           2019-10-22T05:50:07
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.31s           2019-10-22T05:49:55
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.31s           2019-10-22T05:50:01
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.40s           2019-10-22T05:49:37
+/home/abhishek/.conda/envs/airflow/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.51s           2019-10-22T05:49:54
+================================================================================
+[2019-10-22 11:20:36,385] {dag_processing.py:792} INFO - Exiting gracefully upon receiving signal 15
+[2019-10-22 13:06:12,634] {dag_processing.py:806} INFO - Processing files using up to 1 processes at a time 
+[2019-10-22 13:06:12,647] {dag_processing.py:807} INFO - Process each file at most once every 0 seconds
+[2019-10-22 13:06:12,647] {dag_processing.py:809} INFO - Checking for new files in /home/abhishek/airflow/dags every 300 seconds
+[2019-10-22 13:06:12,860] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.20s           2019-10-22T07:36:12
+================================================================================
+[2019-10-22 13:06:42,957] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.31s           2019-10-22T07:36:42
+================================================================================
+[2019-10-22 13:07:14,787] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.10s           2019-10-22T07:37:14
+================================================================================
+[2019-10-22 13:07:45,018] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.30s           2019-10-22T07:37:45
+================================================================================
+[2019-10-22 13:08:16,950] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.20s           2019-10-22T07:38:16
+================================================================================
+[2019-10-22 13:08:46,984] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.21s           2019-10-22T07:38:46
+================================================================================
+[2019-10-22 13:09:17,012] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.21s           2019-10-22T07:39:17
+================================================================================
+[2019-10-22 13:09:47,043] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.21s           2019-10-22T07:39:47
+================================================================================
+[2019-10-22 13:10:17,070] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.20s           2019-10-22T07:40:17
+================================================================================
+[2019-10-22 13:10:47,107] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.21s           2019-10-22T07:40:47
+================================================================================
+[2019-10-22 13:11:12,925] {dag_processing.py:894} INFO - Searching for files in /home/abhishek/airflow/dags
+[2019-10-22 13:11:12,928] {dag_processing.py:897} INFO - There are 1 files in /home/abhishek/airflow/dags
+[2019-10-22 13:11:17,137] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.21s           2019-10-22T07:41:17
+================================================================================
+[2019-10-22 13:11:47,167] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.21s           2019-10-22T07:41:47
+================================================================================
+[2019-10-22 13:12:17,197] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.21s           2019-10-22T07:42:17
+================================================================================
+[2019-10-22 13:12:47,228] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.21s           2019-10-22T07:42:47
+================================================================================
+[2019-10-22 13:13:17,356] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.31s           2019-10-22T07:43:17
+================================================================================
+[2019-10-22 13:13:49,390] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.31s           2019-10-22T07:43:49
+================================================================================
+[2019-10-22 13:14:19,422] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime    Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                    0.31s           2019-10-22T07:44:19
+================================================================================
+[2019-10-22 13:14:34,395] {dag_processing.py:792} INFO - Exiting gracefully upon receiving signal 15
+[2019-10-22 13:26:11,352] {dag_processing.py:806} INFO - Processing files using up to 1 processes at a time 
+[2019-10-22 13:26:11,352] {dag_processing.py:807} INFO - Process each file at most once every 0 seconds
+[2019-10-22 13:26:11,352] {dag_processing.py:809} INFO - Checking for new files in /home/abhishek/airflow/dags every 300 seconds
+[2019-10-22 13:26:11,566] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/hello_world_dag.py
+/home/abhishek/airflow/dags/test_new.py                           0.20s           2019-10-22T07:56:11
+================================================================================
+[2019-10-22 13:26:41,676] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                           0.21s           2019-10-22T07:56:39
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.31s           2019-10-22T07:56:41
+================================================================================
+[2019-10-22 13:27:11,708] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.21s           2019-10-22T07:57:09
+/home/abhishek/airflow/dags/test_new.py                           0.31s           2019-10-22T07:57:11
+================================================================================
+[2019-10-22 13:27:41,738] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                           0.21s           2019-10-22T07:57:39
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.31s           2019-10-22T07:57:41
+================================================================================
+[2019-10-22 13:28:11,770] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.21s           2019-10-22T07:58:09
+/home/abhishek/airflow/dags/test_new.py                           0.31s           2019-10-22T07:58:11
+================================================================================
+[2019-10-22 13:28:41,902] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                           0.11s           2019-10-22T07:58:39
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.41s           2019-10-22T07:58:41
+================================================================================
+[2019-10-22 13:29:13,732] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.21s           2019-10-22T07:59:13
+/home/abhishek/airflow/dags/test_new.py                           0.31s           2019-10-22T07:59:11
+================================================================================
+[2019-10-22 13:29:47,642] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                           0.31s           2019-10-22T07:59:39
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.40s           2019-10-22T07:59:47
+================================================================================
+[2019-10-22 13:30:19,160] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.21s           2019-10-22T08:00:17
+/home/abhishek/airflow/dags/test_new.py                           0.31s           2019-10-22T08:00:19
+================================================================================
+[2019-10-22 13:30:49,189] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                           0.21s           2019-10-22T08:00:47
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.31s           2019-10-22T08:00:49
+================================================================================
+[2019-10-22 13:31:12,907] {dag_processing.py:894} INFO - Searching for files in /home/abhishek/airflow/dags
+[2019-10-22 13:31:12,910] {dag_processing.py:897} INFO - There are 2 files in /home/abhishek/airflow/dags
+[2019-10-22 13:31:19,221] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.21s           2019-10-22T08:01:17
+/home/abhishek/airflow/dags/test_new.py                           0.31s           2019-10-22T08:01:19
+================================================================================
+[2019-10-22 13:31:49,250] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                           0.21s           2019-10-22T08:01:47
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.31s           2019-10-22T08:01:49
+================================================================================
+[2019-10-22 13:32:19,383] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.21s           2019-10-22T08:02:17
+/home/abhishek/airflow/dags/test_new.py                           0.41s           2019-10-22T08:02:19
+================================================================================
+[2019-10-22 13:32:51,214] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                           0.21s           2019-10-22T08:02:51
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.31s           2019-10-22T08:02:49
+================================================================================
+[2019-10-22 13:33:21,241] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.21s           2019-10-22T08:03:21
+/home/abhishek/airflow/dags/test_new.py                           0.31s           2019-10-22T08:03:19
+================================================================================
+[2019-10-22 13:33:53,272] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime    Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------------  -------------------
+/home/abhishek/airflow/dags/test_new.py                           0.10s           2019-10-22T08:03:51
+/home/abhishek/airflow/dags/hello_world_dag.py                    0.20s           2019-10-22T08:03:53
+================================================================================
+[2019-10-22 13:34:01,410] {dag_processing.py:792} INFO - Exiting gracefully upon receiving signal 15
